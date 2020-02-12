@@ -15,5 +15,6 @@ export const useDarkMode = () => {
       body.classList.remove("dark-mode");
     }
   }, [darkMode]);
+
   return [darkMode, setDarkMode];
 };
